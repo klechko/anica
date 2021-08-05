@@ -1,0 +1,72 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
+
+// Teške boje
+$dark: #111;
+$lgrey: #ddd;
+$dgrey: #222;
+$white: #fff;
+$yellow: #fbfb5a;
+$red: #fb5a5a;
+$blue: #5a5afb;
+
+// Reset
+* {
+  font-family: 'Lexend', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+// Navigation
+.navbar {
+  @media(min-width: 768px) {
+    height: 70px;
+  }
+  a {
+    font-size: 1.1rem;
+  }
+  .navbar-brand {
+    font-weight: 600;
+  }
+  .nav-link {
+    transition: all 0.3s ease-in-out;
+  }
+  .nav-item:not(.active) .nav-link:hover {
+    color: $red !important;
+  }
+  .navbar-brand {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-brand:hover {
+    color: $red !important;
+  }
+}
+// Footer
+footer {
+  height: 60px;
+  div, a, span {
+    font-size: 1.1rem;
+  }
+  a {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: $red !important;
+      text-decoration: none;
+    }
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.1rem;
+}
+
+@import 'utilities';
+@import 'index';
+@import 'about';
+@import 'gallery';
+@import 'contact';

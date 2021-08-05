@@ -1,0 +1,43 @@
+#aboutintro {
+  background: url('../media/ulaz_.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  #wrapper {
+    background-color: rgba(0, 0, 0, 0.65);
+    h1 {
+      font-size: 7rem;
+    }
+    @media(max-width: 576px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+}
+#aboutus {
+  min-height: 100vh;
+  line-height: 2.1rem;
+  .img-fluid {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+#tri {
+  min-height: 65vh;
+  line-height: 2.1rem;
+}
+#cjenik {
+  min-height: 100vh;
+  ul {
+    list-style-type: square;
+    li {
+      font-size: 1.3rem;
+      line-height: 3rem;
+    }
+  }
+  #cijena {
+    ul {
+      list-style-type: none;
+    }
+  }
+}

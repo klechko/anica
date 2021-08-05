@@ -1,0 +1,81 @@
+// Intro
+#mainintro  {
+  background: url('../media/skare.jpg') no-repeat center center/cover;
+  background-attachment: fixed;
+  // border-radius: 0;
+  min-height: 100vh;
+  #wrapper {
+    background-color: rgba(0, 0, 0, 0.55);
+    img {
+      width: 200px;
+    }
+    h3 {
+      font-size: 3rem;
+    }
+    h1 {
+      font-size: 8rem;
+    }
+    @media(max-width: 768px) {
+      img {
+        width: 150px;
+      }
+      h3 {
+        font-size: 2rem;
+      }
+      h1 {
+        font-size: 5.5rem;
+      }
+    }
+    @media(max-width: 576px) {
+      img {
+        width: 105px;
+      }
+      h3 {
+        font-size: 1.4rem;
+      }
+      h1 {
+        font-size: 3.7rem;
+      }
+    }
+  }
+}
+
+// Cards
+#cards {
+  min-height: 100vh;
+  .card {
+    border: none;
+    border-radius: 0px 50px 0px 0px;
+    max-width: 350px;
+    transition: all 0.2s linear;
+    p {
+      font-size: 1.1rem;
+    }
+    &:hover {
+      transform: scale(1.02);
+    }
+    @media(max-width: 576px) {
+      max-width: 300px;
+    }
+  }
+}
+#why {
+  min-height: 100vh;
+  line-height: 2.1rem;
+  h1 {
+    line-height: 3.5rem;
+  }
+  .img-fluid {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+#preview {
+  h1 {
+    line-height: 4.5rem;
+    @media(max-width: 994px){
+      font-size: 2rem;
+      line-height: 5rem;
+    }
+  }
+}
