@@ -13,6 +13,9 @@
       }
     }
   }
+  @media(max-width: 768px) {
+    background-attachment: scroll;
+  }
 }
 #info {
   min-height: 50vh;

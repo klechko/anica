@@ -1,9 +1,9 @@
 #aboutintro {
-  background: url('../media/ulaz_.jpg') no-repeat center center/cover;
+  background: url('../media/entrance.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   min-height: 100vh;
   #wrapper {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.85);
     h1 {
       font-size: 7rem;
     }
@@ -13,9 +13,12 @@
       }
     }
   }
+  @media(max-width: 768px) {
+    background-attachment: scroll;
+  }
 }
 #aboutus {
-  min-height: 100vh;
+  min-height: 90vh;
   line-height: 2.1rem;
   .img-fluid {
     height: 100%;
@@ -27,7 +30,7 @@
   line-height: 2.1rem;
 }
 #cjenik {
-  min-height: 100vh;
+  min-height: 80vh;
   ul {
     list-style-type: square;
     li {
