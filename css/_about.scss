@@ -25,10 +25,17 @@
     object-fit: cover;
   }
 }
-#tri {
-  min-height: 65vh;
-  line-height: 2.1rem;
+#frizerke {
+  img {
+    max-height: 75vh;
+    width: 100%;
+    object-fit: cover;
+  }
 }
+// #tri {
+//   min-height: 65vh;
+//   line-height: 2.1rem;
+// }
 #cjenik {
   min-height: 80vh;
   ul {
